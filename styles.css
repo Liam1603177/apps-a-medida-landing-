@@ -28,11 +28,7 @@ h1,h2,h3,.brand-text{font-family:'Poppins', 'Inter', sans-serif}
 
 @media (max-width: 600px){
   body {
-    background:
-      radial-gradient(ellipse 40% 20% at 50% 25%, #85d5d0 0%, #23272f 40%, transparent 100%),
-      radial-gradient(ellipse 30% 15% at 80% 10%, #ede3d4 0%, transparent 100%),
-      radial-gradient(ellipse 40% 10% at 50% 100%, #85d5d040 0%, transparent 80%),
-      linear-gradient(120deg, #101217 0%, #181c23 100%);
+    background: url('assets/background-tech.svg') top left / 1200px 900px no-repeat, #181c23;
   }
 }
 

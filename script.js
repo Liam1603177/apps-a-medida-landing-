@@ -1,10 +1,9 @@
-const API_BASE = 'http://localhost:4000';
+const API_BASE = 'https://apps-a-medida-api.onrender.com';
 // Redirigir a gracias.html al enviar el formulario (modo estático)
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.getElementById('contactForm');
   if (!form) { console.warn('No se encontró #contactForm'); return; }
 
-  const API_BASE = 'http://localhost:4000'; // en prod: tu URL Render
 
   form.addEventListener('submit', async (e) => {
     e.preventDefault();

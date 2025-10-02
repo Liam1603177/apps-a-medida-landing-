@@ -46,4 +46,4 @@
   <!-- Footer decorativo -->
   <rect x="140" y="400" rx="999" ry="999" width="160" height="40" fill="url(#g1)" opacity=".9"/>
   <rect x="320" y="400" rx="999" ry="999" width="160" height="40" fill="none" stroke="#85D5D0"/>
-</svg>y
+</svg>
